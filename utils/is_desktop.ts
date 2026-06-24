@@ -1,3 +1,5 @@
+import { isClient } from './is_client'
+
 export function isDesktop(): boolean {
-  return import.meta.client ? window.screen.width > 992 : false
+  return isClient ? window.screen.width > 992 : false
 }

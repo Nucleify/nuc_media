@@ -1,12 +1,3 @@
-/**
- *  Module's main file export
- */
-
-/**
- *  Folders exports
- */
-export * from './utils'
-
-/**
- *  Files exports
- */
+export * from './utils/is_client'
+export * from './utils/is_desktop'
+export * from './utils/is_mobile'
